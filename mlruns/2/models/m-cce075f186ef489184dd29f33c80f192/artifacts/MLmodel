@@ -1,0 +1,24 @@
+artifact_path: /home/brito/Documents/repos/study-mlflow/mlruns/2/models/m-cce075f186ef489184dd29f33c80f192/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-cce075f186ef489184dd29f33c80f192
+model_size_bytes: 2254366
+model_uuid: m-cce075f186ef489184dd29f33c80f192
+prompts: null
+run_id: 2ceb5aca9e7646c1aa72d2567c4aa43d
+utc_time_created: '2026-09-22 02:43:24.912278'
